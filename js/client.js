@@ -29,7 +29,7 @@ socket.on('receive', data=>{
 })
 
 socket.on('leave', data=>{
-    append(`${data} left the chat`, 'left`')
+    append(`${data} left the chat`, 'left')
 })
 
 form.addEventListener('submit', (e)=>{
