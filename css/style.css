@@ -1,0 +1,38 @@
+.logo{
+    display: block;
+    margin: auto;
+}
+
+.container{
+    max-width: 955px;
+    background-color: aqua;
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.message{
+    background-color: grey;
+    width: 24%;
+    margin: 17px 12px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    text-align: center;
+}
+
+/* body{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+} */
